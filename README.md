@@ -7,8 +7,8 @@ Before starting, please read the AirBnB concept page.
 ## Description
 
 The AirBnB clone project aims to build a command-line interface (CLI) for managing AirBnB-like objects. This project serves as the first step towards building a full web application, providing the foundation for HTML/CSS templating, database storage, API, and front-end integration.
-Each task is linked and will help you to:
 
+**Each task is linked and will help you to:**
 - put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances
 - create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
 - create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
