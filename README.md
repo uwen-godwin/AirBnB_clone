@@ -33,7 +33,8 @@ EOF  help  quit
 (hbnb) quit
 $
 
-Non-Interactive Mode
+
+#### Non-Interactive Mode
 Your shell should also support non-interactive mode, similar to the Shell project in C:
 
 $ echo "help" | ./console.py
@@ -45,7 +46,8 @@ EOF  help  quit
 (hbnb) 
 $
 
-Running Tests
+
+### Running Tests
 All tests should pass in non-interactive mode:
 
 $ echo "python3 -m unittest discover tests" | bash
