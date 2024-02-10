@@ -33,20 +33,20 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 	(hbnb) quit
 	$
 
+
 #### Non-Interactive Mode
 Your shell should also support non-interactive mode, similar to the Shell project in C:
 
-$ echo "help" | ./console.py
-(hbnb)
+	$ echo "help" | ./console.py
+	(hbnb)
 
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-(hbnb) 
-$
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
+	(hbnb) 
+	$
 
-
-### Running Tests
+#### Running Tests
 All tests should pass in non-interactive mode:
 
-$ echo "python3 -m unittest discover tests" | bash
+	$ echo "python3 -m unittest discover tests" | bash
