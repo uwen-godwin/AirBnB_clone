@@ -1,3 +1,4 @@
+<a="AirBnB Clone"></a>
 ## AirBnB Clone
 
 Welcome to the AirBnB clone project!
@@ -16,6 +17,7 @@ The AirBnB clone project aims to build a command-line interface (CLI) for managi
 - create all unittests to validate all our classes and storage engine
 
 ## Command Interpreter
+
 Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 
 - Create a new object (ex: a new User or a new Place)
@@ -32,7 +34,7 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 
 ### Interactive Mode
 
-	Your shell should work like this in interactive mode:
+Your shell should work like this in interactive mode:
 
 	```bash
 	$ ./console.py
@@ -49,6 +51,7 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 
 
 ### Non-Interactive Mode
+
 Your shell should also support non-interactive mode, similar to the Shell project in C:
 
 	$ echo "help" | ./console.py
@@ -72,6 +75,7 @@ Your shell should also support non-interactive mode, similar to the Shell projec
 	$
 
 ### Running Tests
+
 All tests should pass in non-interactive mode:
 
 	$ echo "python3 -m unittest discover tests" | bash
