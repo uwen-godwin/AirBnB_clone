@@ -1,4 +1,3 @@
-<a="AirBnB Clone"></a>
 ## AirBnB Clone
 
 Welcome to the AirBnB clone project!
