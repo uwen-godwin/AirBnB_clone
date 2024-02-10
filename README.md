@@ -1,4 +1,4 @@
-# AirBnB Clone
+## AirBnB Clone
 
 Welcome to the AirBnB clone project!
 
@@ -30,7 +30,7 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 
 ### Execution
 
-#### Interactive Mode
+### Interactive Mode
 
 	Your shell should work like this in interactive mode:
 
@@ -48,7 +48,7 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 	$
 
 
-#### Non-Interactive Mode
+### Non-Interactive Mode
 Your shell should also support non-interactive mode, similar to the Shell project in C:
 
 	$ echo "help" | ./console.py
@@ -59,8 +59,19 @@ Your shell should also support non-interactive mode, similar to the Shell projec
 	EOF  help  quit
 	(hbnb) 
 	$
+	$ cat test_help
+	help
+	$
+	$ cat test_help | ./console.py
+	(hbnb)
 
-#### Running Tests
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
+	(hbnb) 
+	$
+
+### Running Tests
 All tests should pass in non-interactive mode:
 
 	$ echo "python3 -m unittest discover tests" | bash
