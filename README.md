@@ -18,21 +18,20 @@ The command interpreter is a crucial component of the AirBnB clone project. It a
 
 #### Interactive Mode
 
-Your shell should work like this in interactive mode:
+	Your shell should work like this in interactive mode:
 
-```bash
-$ ./console.py
-(hbnb) help
+	```bash
+	$ ./console.py
+	(hbnb) help
 
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
 
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
-
+	(hbnb) 
+	(hbnb) 
+	(hbnb) quit
+	$
 
 #### Non-Interactive Mode
 Your shell should also support non-interactive mode, similar to the Shell project in C:
