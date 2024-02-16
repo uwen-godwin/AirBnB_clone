@@ -34,7 +34,7 @@ This project is a web application aimed at providing a user interface similar to
 
 		git clone https://github.com/uwen-godwin/AirBnB_clone.git
 
-cd AirBnB_clone
+- cd AirBnB_clone
 
 - Open the project files in your preferred code editor.
 
