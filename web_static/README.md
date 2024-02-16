@@ -30,14 +30,12 @@ This project is a web application aimed at providing a user interface similar to
 
 ## Installation
 
-1. Clone the repository:
-
+- Clone the repository:
 	git clone https://github.com/uwen-godwin/AirBnB_clone.git
 
 cd AirBnB_clone
 
-
-3. Open the project files in your preferred code editor.
+- Open the project files in your preferred code editor.
 
 ## Usage
 
