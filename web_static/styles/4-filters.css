@@ -24,3 +24,7 @@
 .filters button:hover {
     opacity: 0.9;
 }
+.filters button:last-child {
+    margin-left: auto;
+}
+
