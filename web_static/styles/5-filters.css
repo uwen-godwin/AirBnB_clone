@@ -2,10 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /* Added */
 }
 
 .filters .locations,
 .filters .amenities {
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    justify-content: center; /* Added */
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -15,12 +19,15 @@
 .filters .locations h3,
 .filters .amenities h3 {
     font-weight: 600;
+    margin-top: 0; /* Added */
+    margin-bottom: 5px; /* Added */
 }
 
 .filters .locations h4,
 .filters .amenities h4 {
     font-weight: 400;
     font-size: 14px;
+    margin-top: 0; /* Added */
 }
 
 .filters button {
@@ -30,7 +37,11 @@
     height: 48px;
     width: 20%;
     border: none;
+    width: 5px;
     border-radius: 4px;
     cursor: pointer;
     transition: opacity 0.3s;
+    position: absolute; /* Added */
+    right: 0; /* Added */
+    top: 0; /* Added */
 }
