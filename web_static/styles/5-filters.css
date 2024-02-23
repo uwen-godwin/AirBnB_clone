@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* Added */
+    position: relative;  
 }
 
 .filters .locations,
 .filters .amenities {
-    display: flex; /* Added */
-    flex-direction: column; /* Added */
-    justify-content: center; /* Added */
+    display: flex;  
+    flex-direction: column;   
+    justify-content: center;  
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -19,15 +19,15 @@
 .filters .locations h3,
 .filters .amenities h3 {
     font-weight: 600;
-    margin-top: 0; /* Added */
-    margin-bottom: 5px; /* Added */
+    margin-top: 0; 
+    margin-bottom: 5px;  
 }
 
 .filters .locations h4,
 .filters .amenities h4 {
     font-weight: 400;
     font-size: 14px;
-    margin-top: 0; /* Added */
+    margin-top: 0;  
 }
 
 .filters button {
@@ -37,11 +37,21 @@
     height: 48px;
     width: 20%;
     border: none;
-    width: 5px;
     border-radius: 4px;
     cursor: pointer;
     transition: opacity 0.3s;
-    position: absolute; /* Added */
-    right: 0; /* Added */
-    top: 0; /* Added */
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.logo {
+    position: absolute;
+    top: 10px;  
+    left: 10px;  
+    width: 100px; 
+    height: 100px;  
+    background-image: url('../images/logo.png');  
+    background-size: contain;
+    background-repeat: no-repeat;
 }
